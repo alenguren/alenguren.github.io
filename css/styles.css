@@ -446,7 +446,7 @@ input[type='checkbox'] {
 
 .offcanvas-collapse {
 	position: fixed;
-	top: 3rem; /* adjusts the height between the top of the page and the offcanvas menu */
+	top: 2.85rem; /* adjusts the height between the top of the page and the offcanvas menu */
 	bottom: 0;
 	left: 100%;
 	width: 100%;
@@ -518,6 +518,7 @@ input[type='checkbox'] {
 	padding: 0;
 	border: none;
 	font-size: 1.25rem;
+	position: absolute;
 }
 
 
@@ -1004,6 +1005,19 @@ a:hover.back-to-top {
 /*************************/
 /*     Media Queries     */
 /*************************/	
+
+@media (max-width: 992px) {
+	.navbar .logo-text {
+		color: #ffffff;
+		font-weight: 600;
+		font-size: 1.5rem;
+		line-height: 1rem;
+		text-decoration: none;
+		margin-left: auto;
+	}
+}
+  
+
 /* Min-width 768px */
 @media (min-width: 768px) {
 
@@ -1012,15 +1026,7 @@ a:hover.back-to-top {
 		height: 64px;
 	}
 	/* end of general Styles */
-
-	.navbar {
-		font-size: 0.75rem; 
-	}
 	
-	.navbar .navbar-brand {
-		padding-top: 0.125rem;
-		padding-bottom: 0.125rem; 
-	}
 
 	/* Header */
 	.header {
