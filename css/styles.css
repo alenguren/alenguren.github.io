@@ -1013,6 +1013,14 @@ a:hover.back-to-top {
 	}
 	/* end of general Styles */
 
+	.navbar {
+		font-size: 0.75rem; 
+	}
+	
+	.navbar .navbar-brand {
+		padding-top: 0.125rem;
+		padding-bottom: 0.125rem; 
+	}
 
 	/* Header */
 	.header {
