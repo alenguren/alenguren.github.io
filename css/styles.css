@@ -573,22 +573,6 @@ input[type='checkbox'] {
 	opacity: 1;
 }
 
-.container {
-	display: flex;
-	justify-content: center;
-}
-  
-  .image-container {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-  
-  .img-fluid {
-	max-width: 100%;
-	height: auto;
-}
-  
   
 /* Wave Animation */
 @keyframes wave {
